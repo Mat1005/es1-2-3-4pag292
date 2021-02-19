@@ -14,7 +14,16 @@ class Atleta:
         if self.visitaMedica == False:
             print("L'atleta",self.name,"non ha ricevuto la visita medica.")
 
+    def squadra(self, squadra):
+        self.squadra = squadra
+        
+        dizionario = {"Nome":self.name,"Età":self.age,"Altezza":self.height,"Peso" : self.weight, "Squadra": self.squadra}
+        print(dizionario)
+    
+
 a1 = Atleta("Matteo Zaccarelli", 15, "1.75 m", "70 kg", True, "Reggiana")
 a1.info()
-a2 = Atleta("Mario Rossi", 22, "1.80 m", "80 kg", False, "Parma")
+a1.squadra("Reggiana")
+a2 = Atleta("Mario Rossi", 22, "1.80 m", "80 kg", False)
 a2.info()
+a2.squadra("Parma")
