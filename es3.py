@@ -1,3 +1,6 @@
+'''
+Aggiungi alla classe Atleta un metodo chiamato effettua_visita che ponga l'attributo visitaMedica uguale a True.
+'''
 class Atleta:
     def __init__(self, name, age, height, weight):
         self.name = name
