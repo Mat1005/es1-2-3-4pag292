@@ -1,3 +1,7 @@
+'''
+Crea una classe Atleta per rappresentare le informazioni su un giocatore. 
+La classe deve contenere un attributo booleano chiamato visitaMedica.
+'''
 class Atleta:
     def __init__(self, name, age, height, weight, visitaMedica):
         self.name = name
