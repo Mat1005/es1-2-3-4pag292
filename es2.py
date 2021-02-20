@@ -1,4 +1,6 @@
-
+'''
+Aggiungi alla classe Atleta un medico per assegnare all'atleta il nome della squadra dove gioca.
+'''
 class Atleta:
     def __init__(self, name, age, height, weight, visitaMedica, squadra):
         self.name = name
